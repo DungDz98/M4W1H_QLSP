@@ -9,10 +9,10 @@ public class FoodService {
     public List<Food> list = new ArrayList<>();
 
     public FoodService() {
-        list.add(new Food("Pizza", "https://images.squarespace-cdn.com/content/v1/53883795e4b016c956b8d243/1551438228969-H0FPV1FO3W5B0QL328AS/chup-anh-thuc-an-1.jpg", 25000, "Delicious", 1));
-        list.add(new Food("Salad", "/assets/img/gallery/02.jpg", 35000, "Very Delicious", 2));
-        list.add(new Food("Noodle", "/assets/img/gallery/03.jpg", 45000, "Delicious sssssa", 1));
-        list.add(new Food("Salad2", "/assets/img/gallery/04.jpg", 15000, "Delicious aaaaa", 3));
+        list.add(new Food("Pizza", "/webpage/img/gallery/01.jpg", 25000, "Delicious", 1));
+        list.add(new Food("Salad", "/webpage/img/gallery/02.jpg", 35000, "Very Delicious", 2));
+        list.add(new Food("Noodle", "/webpage/img/gallery/03.jpg", 45000, "Delicious sssssa", 1));
+        list.add(new Food("Salad2", "/webpage/img/gallery/04.jpg", 15000, "Delicious aaaaa", 3));
     }
 
     public void save(Food food) {
